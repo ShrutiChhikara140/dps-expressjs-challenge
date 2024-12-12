@@ -28,15 +28,15 @@ NOTE: You can use ([db.service.ts](./src/services/db.service.ts)) to handle SQL 
 
 ## Challenge Tasks
 
--   **Fork this project:** Start by forking this repository
--   **REST API Development:** Design and implement a RESTful API to create, read, update, and delete projects and their reports.
--   **Special API Endpoint:** Create an API endpoint that retrieves all reports where the same word appears at least three times.
--   **Optional:** Secure all API routes with a hardcoded authentication token ("Password123").
--   **Submission:** After completing the challenge, email us the URL of your GitHub repository.
--   **Further information:**
-    -   If there is anything unclear regarding requirements, contact us by replying to our email.
-    -   Use small commits, we want to see your progress towards the solution.
-    -   Code clean and follow the best practices.
+- **Fork this project:** Start by forking this repository
+- **REST API Development:** Design and implement a RESTful API to create, read, update, and delete projects and their reports.
+- **Special API Endpoint:** Create an API endpoint that retrieves all reports where the same word appears at least three times.
+- **Optional:** Secure all API routes with a hardcoded authentication token ("Password123").
+- **Submission:** After completing the challenge, email us the URL of your GitHub repository.
+- **Further information:**
+    - If there is anything unclear regarding requirements, contact us by replying to our email.
+    - Use small commits, we want to see your progress towards the solution.
+    - Code clean and follow the best practices.
 
 \
 Happy coding!

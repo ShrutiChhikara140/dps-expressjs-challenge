@@ -5,17 +5,11 @@ const db = new sqlite(path.resolve('./db/db.sqlite3'), {
 	fileMustExist: true,
 });
 
-function query(
-	sql: string,
-	params?: { [key: string]: string | number | undefined },
-) {
+function query(sql: string, params?: unknown[]) {
 	return params ? db.prepare(sql).all(params) : db.prepare(sql).all();
 }
 
-function run(
-	sql: string,
-	params?: { [key: string]: string | number | undefined },
-) {
+function run(sql: string, params?: unknown[]) {
 	return params ? db.prepare(sql).run(params) : db.prepare(sql).run();
 }
 
