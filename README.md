@@ -2,16 +2,18 @@
 
 ## Overview
 
-This repository contains a very basic web application based on Typescript and Express.js. Main application file is `index.ts`. Node and npm are required.
+This repository contains a CRUD web application based on Typescript and Express.js. Main application file is `index.ts`. Node and npm are required.
 
-## Environment Setup
+## Environment Setup and Application Start
 
 Ensure you have Node.js (v14.x or later) and npm (v6.x or later) installed.  
 To set up and run the application, execute the following commands:
 
 ```
 npm install
-npm run dev
+npm run init-db
+npm run build
+npm start
 ```
 
 The application will then be accessible at http://localhost:3000.
@@ -197,3 +199,8 @@ This section outlines the CRUD operations for managing projects and reports, inc
   - `404 Not Found`: No reports found with the required word frequency.
   - `500 Internal Server Error`: Error fetching or processing reports.
 - **Database Changes**: None.
+
+
+## Additional Notes
+- Added `dist/` to `.eslintignore` to avoid linting compiled files, as they are auto-generated from source code.
+- Added `dist/` to `.gitignore` to exclude build artifacts from version control, keeping the repository clean and focused on source files.
